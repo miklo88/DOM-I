@@ -9,7 +9,7 @@ const siteContent = {
     "img-src": "img/logo.png"
   },
   "cta": {
-    "h1": "DOM Is Awesome",
+    "h1": "DOM \n Is \n Awesome",
     "button": "Get Started",
     "img-src": "img/header-img.png"
   },
@@ -67,6 +67,7 @@ link_6.textContent = siteContent["nav"]["nav-item-6"]
 
 const Prepend = document.createElement('a');
 Prepend.textContent = "Prepend";
+// document.getElementsByTagName('a').style.cursor = "pointer";
 
 const Append = document.createElement('a');
 Append.textContent = "Append";
